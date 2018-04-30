@@ -11,4 +11,6 @@ react.intl.comp.FormattedTime
 react.intl.comp.FormattedRelative
 react.intl.comp.FormattedNumber
 react.intl.comp.FormattedPlural
+react.intl.comp.FormattedMessage
+react.intl.comp.FormattedHTMLMessage
 

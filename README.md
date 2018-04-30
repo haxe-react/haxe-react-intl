@@ -7,15 +7,15 @@ React Intl provides React components and an API to format dates, numbers, and st
 ## Roadmap
 
  * [X] ReactIntl [methods](https://github.com/yahoo/react-intl/wiki/API)
- * [.] React Intl [components](https://github.com/yahoo/react-intl/wiki/Components)
+ * [X] React Intl [components](https://github.com/yahoo/react-intl/wiki/Components)
 	 * [X] IntlProvider
 	 * [X] FormattedDate
 	 * [X] FormattedTime
 	 * [X] FormattedRelative
 	 * [X] FormattedNumber
 	 * [X] FormattedPlural
-	 * [ ] FormattedMessage
-	 * [ ] FormattedHTMLMessage
+	 * [X] FormattedMessage
+	 * [X] FormattedHTMLMessage
  * [ ] Examples
 	 * [ ] React-Router example
 	 * [ ] Translations example with injectIntl
