@@ -1,0 +1,9 @@
+-cp src
+-cp ../../src
+
+-lib react
+-lib react-router-4
+
+-js .build/app.js
+-main Main
+
