@@ -12,8 +12,8 @@ React Intl provides React components and an API to format dates, numbers, and st
 	 * [X] FormattedDate
 	 * [X] FormattedTime
 	 * [X] FormattedRelative
-	 * [ ] FormattedNumber
-	 * [ ] FormattedPlural
+	 * [X] FormattedNumber
+	 * [X] FormattedPlural
 	 * [ ] FormattedMessage
 	 * [ ] FormattedHTMLMessage
  * [ ] Examples

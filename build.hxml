@@ -9,3 +9,6 @@ react.intl.comp.IntlProvider
 react.intl.comp.FormattedDate
 react.intl.comp.FormattedTime
 react.intl.comp.FormattedRelative
+react.intl.comp.FormattedNumber
+react.intl.comp.FormattedPlural
+
