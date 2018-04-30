@@ -1,10 +1,13 @@
 package react.intl;
 
+import react.React.CreateElementType;
+
 typedef IntlConfig = {
-	var locale:String;
-	var formats:{}; // TODO: more precise type?
-	var messages:Dynamic<String>;
-	var defaultLocale:String;
-	var defaultFormats:{}; // TODO: more precise type?
+	@:optional var locale:String;
+	@:optional var formats:{}; // TODO: more precise type?
+	@:optional var messages:Dynamic<String>;
+	@:optional var defaultLocale:String;
+	@:optional var defaultFormats:{}; // TODO: more precise type?
+	@:optional var textComponent:CreateElementType;
 }
 
