@@ -9,9 +9,9 @@ React Intl provides React components and an API to format dates, numbers, and st
  * [X] ReactIntl [methods](https://github.com/yahoo/react-intl/wiki/API)
  * [.] React Intl [components](https://github.com/yahoo/react-intl/wiki/Components)
 	 * [X] IntlProvider
-	 * [ ] FormattedDate
-	 * [ ] FormattedTime
-	 * [ ] FormattedRelative
+	 * [X] FormattedDate
+	 * [X] FormattedTime
+	 * [X] FormattedRelative
 	 * [ ] FormattedNumber
 	 * [ ] FormattedPlural
 	 * [ ] FormattedMessage

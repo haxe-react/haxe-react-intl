@@ -1,0 +1,11 @@
+-cp src
+
+-lib react
+
+-js .build/lib.js
+react.intl.ReactIntl
+react.intl.IntlShape
+react.intl.comp.IntlProvider
+react.intl.comp.FormattedDate
+react.intl.comp.FormattedTime
+react.intl.comp.FormattedRelative
