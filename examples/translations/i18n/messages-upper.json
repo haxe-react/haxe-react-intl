@@ -1,0 +1,8 @@
+{
+  "app.title": "REACT INTL TRANSLATIONS EXAMPLE -- NOW IN UPPERCASE!!",
+  "app.locales_menu_heading": "LOCALES:",
+  "menu.item_en_us_description": "NORMAL EN-US",
+  "menu.item_en_upper_description": "UPPERCASE EN-US!!!",
+  "greeting.welcome_message": "WELCOME {name}!!! HEY! YOU HAVE RECEIVED {unreadCount, plural, =0 {ABSOLUTELY NO NEW MESSAGES} one {{formattedUnreadCount} NEW MESSAGE} other {{formattedUnreadCount} NEW MESSAGES}} SINCE {formattedLastLoginTime}!"
+}
+

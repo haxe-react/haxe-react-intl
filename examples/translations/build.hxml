@@ -1,0 +1,9 @@
+-cp src
+-cp ../../src
+
+-lib react
+-lib haxe-loader
+
+-js .build/app.js
+-main Main
+
