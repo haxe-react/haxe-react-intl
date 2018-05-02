@@ -7,10 +7,10 @@
     "start": "webpack-dev-server --host 0.0.0.0"
   },
   "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-intl": "^2.1.5",
-    "react-router-dom": "^4.1.2"
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-intl": "^2.4.0",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.5.1",

@@ -6,4 +6,5 @@
 
 -js .build/app.js
 -main Main
+-debug
 
