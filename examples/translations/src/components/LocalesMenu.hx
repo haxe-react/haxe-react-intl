@@ -10,9 +10,17 @@ private typedef Props = {
 	var intl:IntlShape;
 }
 
+#if react_next
+@:noPublicProps
+@:wrap(injectIntl)
+#else
 @:jsxStatic('WithIntl')
+#end
 class LocalesMenu extends ReactComponentOfProps<Props> {
+	#if !react_next
 	public static var WithIntl = injectIntl(LocalesMenu);
+	#end
+
 	static var messages = defineMessages({
 		enUSDescription: {
 			id: 'menu.item_en_us_description',
