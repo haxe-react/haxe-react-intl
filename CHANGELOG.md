@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2 (2018-10-02)
+
+* Added `IntlProvider.getChildContext()`
+
 ## 0.1.1 (2018-10-02)
 
 * Made `MessageDescriptor`'s `defaultMessage` optional

@@ -48,5 +48,7 @@ typedef IntlProviderProps = {
 	which persuades React that the component has been modified.
 **/
 @:jsRequire('react-intl', 'IntlProvider')
-extern class IntlProvider extends ReactComponentOfProps<IntlProviderProps> {}
+extern class IntlProvider extends ReactComponentOfProps<IntlProviderProps> {
+	public function getChildContext():{intl:IntlShape};
+}
 
