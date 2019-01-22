@@ -11,7 +11,7 @@ The haxe documentation has not been written yet (PRs welcome!), but the [origina
 The main differences between using the javascript lib and this haxe lib are:
 
  * Components are in the [`react.intl.comp`](/src/react/intl/comp/) package.
- * `addLocaleData`, `defineMessages`, `injectIntl`, `formatDate`, `formatTime`, `formatRelative`, `formatNumber`, `formatPlural`, `formatMessage` and `formatHTMLMessage` are static methods from [`react.intl.ReactIntl`](/src/react/intl/ReactIntl.hx).
+ * `addLocaleData`, `defineMessages` and `injectIntl` are static methods from [`react.intl.ReactIntl`](/src/react/intl/ReactIntl.hx).
  * `intlShape` is available as [`react.intl.IntlShape`](/src/react/intl/IntlShape.hx) typedef for use in components `TProps`.
 
 ## Roadmap
