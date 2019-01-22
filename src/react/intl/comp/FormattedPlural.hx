@@ -3,16 +3,22 @@ package react.intl.comp;
 import react.ReactComponent;
 import react.intl.PluralFormatOptions;
 
+#if (!react_next && (react < "2.0"))
+private typedef ReactFragment = react.ReactComponent.ReactElement;
+#else
+import react.ReactComponent.ReactFragment;
+#end
+
 typedef FormattedPluralProps = {
 	> PluralFormatOptions,
 	var value:Any;
-	var other:ReactElement;
-	@:optional var zero:ReactElement;
-	@:optional var one:ReactElement;
-	@:optional var two:ReactElement;
-	@:optional var few:ReactElement;
-	@:optional var many:ReactElement;
-	@:optional var children:ReactElement->ReactElement;
+	var other:ReactFragment;
+	@:optional var zero:ReactFragment;
+	@:optional var one:ReactFragment;
+	@:optional var two:ReactFragment;
+	@:optional var few:ReactFragment;
+	@:optional var many:ReactFragment;
+	@:optional var children:ReactFragment->ReactFragment;
 }
 
 /**

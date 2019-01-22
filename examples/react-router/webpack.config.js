@@ -21,7 +21,7 @@ module.exports = {
 		contentBase: dist,
 		compress: true,
 		port: 9065,
-		https: true,
+		https: false,
 		overlay: true,
 		historyApiFallback: true,
 	},

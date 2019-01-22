@@ -3,13 +3,19 @@ package react.intl.comp;
 import react.ReactComponent;
 import react.intl.RelativeTimeFormatOptions;
 
+#if (!react_next && (react < "2.0"))
+private typedef ReactFragment = react.ReactComponent.ReactElement;
+#else
+import react.ReactComponent.ReactFragment;
+#end
+
 typedef FormattedRelativeProps = {
 	> RelativeTimeFormatOptions,
 	var value:Any;
 	@:optional var format:String;
 	@:optional var updateInterval:Float;
 	@:optional var initialNow:Any;
-	@:optional var children:String->ReactElement;
+	@:optional var children:String->ReactFragment;
 }
 
 /**

@@ -1,7 +1,7 @@
 -cp src
 -cp ../../src
 
--lib react-next
+-lib react
 -lib haxe-loader
 
 -js .build/app.js

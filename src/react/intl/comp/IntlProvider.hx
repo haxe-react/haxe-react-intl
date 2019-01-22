@@ -3,9 +3,15 @@ package react.intl.comp;
 import react.ReactComponent;
 import react.intl.IntlConfig;
 
+#if (!react_next && (react < "2.0"))
+private typedef ReactSingleFragment = react.ReactComponent.ReactElement;
+#else
+import react.ReactComponent.ReactSingleFragment;
+#end
+
 typedef IntlProviderProps = {
 	> IntlConfig,
-	var children:ReactElement;
+	var children:ReactSingleFragment;
 	@:optional var initialNow:Any;
 }
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0 (2019-01-22)
+
+* Compatibilty with both `react` and `react-next`
+* Removed `formatX` functions from `ReactIntl`
+* Added documentation to `IntlFormat`
+
 ## 0.1.2 (2018-10-02)
 
 * Added `IntlProvider.getChildContext()`

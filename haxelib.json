@@ -1,8 +1,8 @@
 {
   "name": "react-intl",
   "description": "React intl externs",
-  "version": "0.1.2",
-  "releasenote": "Initial release. (See CHANGELOG.md)",
+  "version": "0.2.0",
+  "releasenote": "Compatibility with react-next + some fixes. (See CHANGELOG.md)",
   "url": "https://github.com/kLabz/haxe-react-intl",
   "license": "MIT",
   "tags": [
